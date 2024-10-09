@@ -8,4 +8,5 @@ button {
     border:0;
     background-color: black;
     color:red;
+    border: 2px red solid;
 }
