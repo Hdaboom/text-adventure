@@ -29,6 +29,12 @@ button {
     border:0;
     border-radius:4px;
     cursor:pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #a10404;
+    box-shadow: whitesmoke;
 }
 
 .whitespace-area {
