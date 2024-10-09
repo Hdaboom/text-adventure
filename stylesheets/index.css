@@ -9,5 +9,6 @@ button {
     background-color: black;
     color:red;
     border: 2px red solid;
-    border-radius: 4px;
+    border-radius: 16px;
+    font-size: 16px;
 }
