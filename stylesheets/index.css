@@ -17,5 +17,5 @@ button {
 button:hover {
     color:black;
     background:red;
-    border: 2px black solid;
+    border: 2px red solid;
 }
