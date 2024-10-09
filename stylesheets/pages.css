@@ -19,6 +19,8 @@ p {
     text-align:center;
 }
 
+
+
 button {
     background-color: red;
     color:black;
@@ -41,3 +43,6 @@ button {
 }
 
 
+.Restart-button {
+    border-radius: 16px;
+}
