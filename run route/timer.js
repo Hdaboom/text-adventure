@@ -1,6 +1,4 @@
 var timer_text=document.getElementById("timer-text");
-var action_button1=document.getElementById("action-button-1")
-var action_button2=document.getElementById("action-button-2")
 let timer_value=20
 
 function timer_reduce() {
