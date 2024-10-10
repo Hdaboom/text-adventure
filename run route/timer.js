@@ -6,7 +6,7 @@ function timer_reduce() {
     timer_value-=1
 
     if (timer_value<0) {
-        window.location.href="https://hdaboom.github.io/text-adventure/run%20route/timeout-death.html"
+        window.location.href="https://hdaboom.github.io/text-adventure/death%20pages/timeout-death.html"
     }
 
     else {
