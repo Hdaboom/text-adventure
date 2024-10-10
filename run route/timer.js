@@ -1,12 +1,12 @@
-var Nothingbtn=document.getElementById("do-nothing-btn");
+var timer_text=document.getElementById("timer-text");
 let timer_value=20
 
 function timer_reduce() {
-    Nothingbtn.innerHTML=`Do nothing in ${timer_value}`
+    timer_text.innerHTML=`Do nothing in ${timer_value}`
     timer_value-=1
 
     if (timer_value<0) {
-        Nothingbtn.innerHTML="yay"
+        timer_text.innerHTML="yay"
     }
 
     else {
