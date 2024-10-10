@@ -10,4 +10,6 @@ function timer_reduce() {
     }
 }
 
-window.setTimeout(timer_reduce,1000)
+for (let i=0;i>20;i++) {
+    window.setTimeout(timer_reduce,1000)
+}
