@@ -1,5 +1,5 @@
 var timer_text=document.getElementById("timer-text");
-let timer_value=20
+let timer_value=40
 
 function timer_reduce() {
     timer_text.innerHTML=`The Creature catches up to you in ${timer_value}`
