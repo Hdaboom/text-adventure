@@ -2,7 +2,7 @@ var timer_text=document.getElementById("timer-text");
 let timer_value=20
 
 function timer_reduce() {
-    timer_text.innerHTML=`Do nothing in ${timer_value}`
+    timer_text.innerHTML=`The creature catches up to you in ${timer_value}`
     timer_value-=1
 
     if (timer_value<0) {
