@@ -6,10 +6,13 @@ function timer_reduce() {
     Nothingbtn.innerHTML=`Do nothing in ${timer_value}`
 
     if (timer_value<0) {
-        console.log(timer_value)
+        Nothingbtn.innerhtml="yay"
+    }
+
+    else {
+        window.setTimeout(timer_reduce,1000)
     }
 }
 
-for (let i=0;i<20;i++) {
-    window.setTimeout(timer_reduce,1000)
-}
+window.setTimeout(timer_reduce,1000)
+
