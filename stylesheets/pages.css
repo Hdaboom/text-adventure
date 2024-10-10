@@ -34,7 +34,7 @@ button {
 
 button:hover {
     background-color: #ff1100;
-    box-shadow: 0 5px 16px 0 #cec4c4;
+    box-shadow: 0 5px 16px -5px #cec4c4;
 }
 
 .whitespace-area {
