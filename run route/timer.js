@@ -8,13 +8,6 @@ function timer_reduce() {
     timer_value-=1
 
     if (timer_value<=0) {
-        action_button1.style.cursor="not-allowed"
-        action_button1.style.opacity=0.6
-        action_button1.setAttribute(href,"")
-        action_button2.style.cursor="not-allowed"
-        action_button2.style.opacity=0.6
-        action_button2.setAttribute(href,"")
-        window.setTimeout(1000)
         window.location.href="https://hdaboom.github.io/text-adventure/run%20route/timeout-death.html"
     }
 
