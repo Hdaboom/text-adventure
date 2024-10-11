@@ -14,5 +14,4 @@ function timer_reduce() {
     }
 }
 
-window.setTimeout(timer_reduce,1000)
-
+timer_reduce()
