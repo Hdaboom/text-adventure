@@ -22,6 +22,11 @@ button:hover {
     border: 2px red solid;
 }
 
+button:active {
+    background-color: #850d0dbd;
+    border-color: #850d0dbd;
+}
+
 .progress-remove {
     position:relative
 }
