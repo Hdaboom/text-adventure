@@ -1,4 +1,4 @@
 function ProgressStore(address) {
     localStorage.setItem("Progress",`${address}`)
-    console.log("it")
+    console.log(localstorage.getitem("Progress"))
 }
