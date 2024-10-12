@@ -4,3 +4,8 @@ function LoadProgress() {
     window.location.href=`${address}`
    }
 }
+
+
+function ProgressDelete() {
+    localStorage.removeItem("Progress")
+}

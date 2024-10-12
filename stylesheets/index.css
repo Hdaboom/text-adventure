@@ -21,3 +21,13 @@ button:hover {
     background:red;
     border: 2px red solid;
 }
+
+.progress-remove {
+    position:relative
+}
+
+.top-right-container {
+    position: absolute;
+    top:10px;
+    right:10px;
+}
