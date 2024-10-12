@@ -1,4 +1,9 @@
 function LoadProgress() {
    var address=localStorage.getItem("Progress")
-   window.location.href=`${address}`
+   if (address===null) {
+    pass
+   }
+   else {
+    window.location.href=`${address}`
+   }
 }
